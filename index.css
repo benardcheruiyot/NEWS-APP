@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-right: 10px;
+  margin-left: 20px;
+  background-image: url("background.jpg" );
+  background-repeat: no-repeat;
+  background-size:200vh;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* NavBar styling */
+@media only screen and (min-width: 600px){
+.nb{
+  background-color: rgb(177, 84, 122);
+  padding-bottom: 20px;
+  padding-top: 3px;
+  box-shadow: 5px 10px 18px white ;
+}
+.nb li {
+  float:right;
+  display: inline;
+  padding-right: 20px;
+  text-decoration: none;
+  
+  
+}
+
+.nb h3{
+ 
+  font-family: 'Brush Script MT', monospace;
+}
+}
+/* newform styling */
+.fm{
+  float:right;
+  border:rgb(219, 202, 202) ;
+  box-shadow: 10px 15px 18px white;
+  background-color: rgb(177, 84, 122);
+  padding: 10px;
+}
+
+/* postscontainer styling */
+@media only screen and (min-width: 1024px){
+.posts-container{
+  
+  padding: 10px;
+  width: 800px;
+  height: 200px;
+  text-align: justify;
+}
+}
+/* contact styling */
+.contact{
+  padding-bottom: 50%;
+  margin-left: 20%;
+  color:rgb(177, 84, 122);
+  
+}
+.contact i{
+padding: 30px;
+color: aliceblue;
+
+}
+/* styling login */
+.login{
+  border: 0px solid black;
+  margin-right: 80.5%;
+  margin-top: 5px;
+  box-shadow: 5px 10px 13px white;
+  border-radius: 20px;
+}
+/* style buttons */
+button{
+  border-radius: 30px;
+  border: 0px;
+}
+.dlt button{
+  color: red;
+}
+/* style image */
+.image img{
+  height: 123vh;
+}
+
+.image p{
+   margin-top: -55%;
+   padding-bottom: 50%;
+   align-items: center;
+}
+ 
