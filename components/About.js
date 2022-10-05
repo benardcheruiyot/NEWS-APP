@@ -2,14 +2,13 @@ import React from "react";
 
 
 function About(){
-  const imgUrl= 'https://media.istockphoto.com/photos/sports-balls-on-the-field-with-yard-line-soccer-ball-american-and-picture-id942206100?b=1&k=20&m=942206100&s=170667a&w=0&h=S6SIMeZy5KWm-SEmOAlW-TGTUqCEvtK9WrupPA7qLKg='
+  const imgUrl= 'https://i0.wp.com/www.pd.co.ke/wp-content/uploads/2022/10/unnamed-40.jpg?resize=500%2C333&ssl=1'
     return(
         <div className="image">
-         <img src={imgUrl} alt="sportImage" />
-            <p></p>
+         <img src={imgUrl} alt="newsimage" />
         
-            <p><h1>Check up daily to get more detailed Sports news</h1>
-            <h2>We enable tranparency in providing our Sports news.</h2>
+            <p><h1>check up daily to get top stories and trending trending news</h1>
+            <h2>Our sources are the most reliable</h2>
             </p>
             
 
