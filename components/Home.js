@@ -27,10 +27,6 @@ function handleNewPost(newFormData){
       .then(addedPost=>setPosts(posts=>[...posts, addedPost]))
   }
 
-
-
-   
-
     return(
 <div>
       <button onClick={handleClick} >{show? "Close":"Create "} Post</button><br></br>
