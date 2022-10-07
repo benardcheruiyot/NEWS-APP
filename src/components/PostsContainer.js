@@ -10,7 +10,7 @@ function PostsContainer(){
 const [posts, setPosts]= useState([])
 
 useEffect(() => {
-  fetch("https://my-server1121.herokuapp.com/posts" )
+  fetch("https://react-app6.herokuapp.com/news" )
     .then((r) => r.json())
     .then((posts) => setPosts(posts));
 }, []);

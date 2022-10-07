@@ -22,7 +22,7 @@ function handleNewPost(newFormData){
       body:JSON.stringify(newFormData
       )
       }
-      fetch('https://my-server1121.herokuapp.com/posts', serverOptions)
+      fetch('https://react-app6.herokuapp.com/news', serverOptions)
       .then(r=>r.json())
       .then(addedPost=>setPosts(posts=>[...posts, addedPost]))
   }
