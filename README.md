@@ -17,7 +17,7 @@ Use of react components
 Incorporation of client-side routes.
 Initializing of Git ,git add files,git commit and git push.
 Deploying of the project.
-Technology-Used
+## Technology-Used
 HTML
 CSS
 Reactjs
